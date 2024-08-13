@@ -34,8 +34,3 @@ def number_of_subscribers(subreddit):
     except Exception:
         # In case of any exceptions, return 0
         return 0
-
-# Example usage:
-if __name__ == '__main__':
-    print(number_of_subscribers("programming"))  # Should return the number of subscribers
-    print(number_of_subscribers("this_is_a_fake_subreddit"))  # Should return 0
